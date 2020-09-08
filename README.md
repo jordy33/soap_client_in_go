@@ -1,4 +1,4 @@
-### Soap Client in go
+## Soap Client in go
 
 Step 1: 
 
@@ -14,15 +14,14 @@ Suds is a lightweight SOAP python client that provides a service proxy for Web S
 Basic Usage
 The ‘suds’ [suds.client.Client-class.html Client] class provides a consolidated API for consuming web services. The object contains (2) sub-namespaces:
 
-service:
-```
+###service:
+
 The [suds.client.Service-class.html service] namespace provides a proxy for the consumed service. This object is used to invoke operations (methods) provided by the service endpoint.
-```
-factory:
-```
+
+###factory:
+
 The [suds.client.Factory-class.html factory] namespace provides a factory that may be used to create instances of objects and types defined in the WSDL.
 You will need to know the url for WSDL for each service used. Simply create a client for that service as follows:
-```
 
 Example:
 ```
